@@ -168,7 +168,7 @@ def run(request):
 
     # request = read_request() run on local save data
     f_data = parse_input_params(
-        request.json,
+        request,
         q_tree,
         array_data,
         attr_index
