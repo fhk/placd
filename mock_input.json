@@ -1,0 +1,12 @@
+{
+    "sites": [
+        [-122.439544,37.764914],
+        [-122.391510,37.785148]
+    ],
+    "metrics": [
+        {"cost": {"value": 100000}, "hotel": {"value": 500, "distance": 1000}},
+        {"cost": {"value": 101000}, "cafe": {"value": -500, "distance": 1000}}
+    ],
+    "out_count": 1,
+    "budget": 100000
+}
