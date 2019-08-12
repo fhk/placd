@@ -1,12 +1,20 @@
 {
     "sites": [
         [-122.439544,37.764914],
-        [-122.391510,37.785148]
+        [-122.391510,37.785148],
+        [-122.449544,37.764914],
+        [-122.401510,37.785148],
+        [-122.429544,37.764914],
+        [-122.381510,37.785148]
     ],
     "metrics": [
-        {"cost": {"value": 100000}, "hotel": {"value": 500, "distance": 1000}},
-        {"cost": {"value": 101000}, "cafe": {"value": -500, "distance": 1000}}
+        {"cost": {"value": 100000}, "MLS": {"value": 400},"IRR": {"value": -10000}, "hotel": {"value": 500, "distance": 4000}},
+        {"cost": {"value": 101000}, "IRR": {"value": -5000}, "cafe": {"value": -500, "distance": 2000}},
+        {"cost": {"value": 100000}, "MLS": {"value": 400},"IRR": {"value": -10000}, "hotel": {"value": 500, "distance": 4000}},
+        {"cost": {"value": 101000}, "IRR": {"value": -5000}, "cafe": {"value": -500, "distance": 2000}},
+        {"cost": {"value": 100000}, "MLS": {"value": 400},"IRR": {"value": -10000}, "hotel": {"value": 500, "distance": 4000}},
+        {"cost": {"value": 101000}, "IRR": {"value": -5000}, "cafe": {"value": -500, "distance": 2000}}
     ],
-    "out_count": 1,
-    "budget": 100000
+    "out_count": 2,
+    "budget": 999999
 }
