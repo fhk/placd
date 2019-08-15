@@ -1,8 +1,13 @@
 from flask import Flask, request
+from flask_cors import CORS, cross_origin
+
+from solve import run
+
 
 app = Flask(__name__)
 
-from solve import run
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 @app.route('/submit', methods=["POST"])
