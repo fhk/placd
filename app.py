@@ -11,6 +11,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 
 
 @app.route('/submit', methods=["POST"])
+@cross_origin()
 def submit():
 	return run(request.get_json())
 
